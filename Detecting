@@ -1,3 +1,113 @@
 
 
+-- THIS SCRIPT HERE FILLS THE NEAREST TIER ONE VENDING MACHINE TIL ITS AT 5B, IT DEPOSITS 1B AT A TIME. IF U WANT TO CHANGE IT TO TIER TWO U CHANGE VendingMachine to VendingMachine1
 
+local yourislanddummy = ""
+local player = game.Players.LocalPlayer
+local character = player.Character
+local characterPosition = character and character.PrimaryPart and character.PrimaryPart.Position
+
+if characterPosition then
+    local closestIslandName = nil
+    local closestDistance = math.huge
+
+    for _, island in pairs(workspace.Islands:GetChildren()) do
+        if island:FindFirstChild("Blocks") then
+            local blocksFolder = island.Blocks
+            
+            for _, part in pairs(blocksFolder:GetChildren()) do
+                if part:IsA("BasePart") then
+                    local partPosition = part.Position
+                    local distance = (partPosition - characterPosition).Magnitude
+
+                    if distance < closestDistance then
+                        closestDistance = distance
+                        closestIslandName = island.Name
+                    end
+                end
+            end
+        end
+    end
+
+    if closestIslandName then
+        yourislanddummy = closestIslandName
+    end
+end
+
+while true do
+wait(0.1)
+    local workspace = game:GetService("Workspace")
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local targetName = "vendingMachine"
+
+    local blocks = workspace.Islands:FindFirstChild(yourislanddummy).Blocks:GetChildren()
+
+    local closestMachine = nil
+    local closestDistance = math.huge
+
+    for _, machine in pairs(blocks) do
+        if machine.Name == targetName then
+            local distance = (machine.Position - humanoidRootPart.Position).Magnitude
+            local coinBalance = machine:FindFirstChild("CoinBalance")
+            
+            if distance < 1000 and coinBalance and coinBalance.Value < 4500000000 then
+                closestMachine = machine
+                closestDistance = distance
+            end
+        end
+    end
+local args = {
+    [1] = "ED16EF2A-1329-492B-AD4D-3C96EC5239F6",
+    [2] = {
+        [1] = {
+            ["vendingMachine"] = closestMachine
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/tpSgndmZsaawi"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        ["vendingMachine"] = closestMachine
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/uqebXoohbreax"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        ["vendingMachine"] = closestMachine
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/iashRomfjotJeQvSjgvahJoo"):FireServer(unpack(args))
+local args = {
+    [1] = "CF67163D-7FAB-467A-B1CE-6D8831DDFD28",
+    [2] = {
+        [1] = {
+            ["vendingMachine"] = closestMachine
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/neQnzfdzsfeheukiopbCosaloeBuecprrvxmnukBllbt"):FireServer(unpack(args))
+local args = {
+    [1] = "B5EA6625-430F-4417-AF96-4165A3C81B02",
+    [2] = {
+        [1] = {
+            ["vendingMachine"] = closestMachine,
+            ["player_tracking_category"] = "join_from_web",
+            ["amount"] = 1000000000
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/aMryberyernpBfziswuxD"):FireServer(unpack(args))
+local args = {
+    [1] = {
+        ["vendingMachine"] = closestMachine
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/iashRomfjotJeQvSjgvahJoo"):FireServer(unpack(args))
+end
