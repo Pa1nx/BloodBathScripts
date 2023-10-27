@@ -39,7 +39,7 @@ wait(0.1)
     local workspace = game:GetService("Workspace")
     local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 
-    local targetName = "vendingMachine"
+    local targetName = "vendingMachine1"
 
     local blocks = workspace.Islands:FindFirstChild(yourislanddummy).Blocks:GetChildren()
 
