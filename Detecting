@@ -66,21 +66,21 @@ local args = {
     }
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/tpSgndmZsaawi"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("uQGwRfFzhxuxzz/homehzdaqIeswexlnzv"):FireServer(unpack(args))
 local args = {
     [1] = {
         ["vendingMachine"] = closestMachine
     }
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/uqebXoohbreax"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("uQGwRfFzhxuxzz/ehkjxcqnyeDdfRutnXthoBfsijltlpnvmZzfj"):FireServer(unpack(args))
 local args = {
     [1] = {
         ["vendingMachine"] = closestMachine
     }
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/iashRomfjotJeQvSjgvahJoo"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("uQGwRfFzhxuxzz/fataUso"):FireServer(unpack(args))
 local args = {
     [1] = "CF67163D-7FAB-467A-B1CE-6D8831DDFD28",
     [2] = {
@@ -90,7 +90,7 @@ local args = {
     }
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/neQnzfdzsfeheukiopbCosaloeBuecprrvxmnukBllbt"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("uQGwRfFzhxuxzz/ziDEKukpjqow"):FireServer(unpack(args))
 local args = {
     [1] = "B5EA6625-430F-4417-AF96-4165A3C81B02",
     [2] = {
@@ -102,12 +102,12 @@ local args = {
     }
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/aMryberyernpBfziswuxD"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("uQGwRfFzhxuxzz/WmfeeyHKfti"):FireServer(unpack(args))
 local args = {
     [1] = {
         ["vendingMachine"] = closestMachine
     }
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("dBdsufuxVnfwQbxd/iashRomfjotJeQvSjgvahJoo"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("node_modules"):WaitForChild("@rbxts"):WaitForChild("net"):WaitForChild("out"):WaitForChild("_NetManaged"):WaitForChild("uQGwRfFzhxuxzz/fataUso"):FireServer(unpack(args))
 end
